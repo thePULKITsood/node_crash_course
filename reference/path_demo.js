@@ -1,19 +1,35 @@
-// const path = require('path');
 
-// // Base file name
-// console.log(path.basename(__filename));
+//  ? should 
+//  ! red comment 
 
-// // Directory name
-// console.log(path.dirname(__filename));
+//  TODO : orrange comment 
 
-// // File extension
-// console.log(path.extname(__filename));
+//  this is a comment
+// * this is the path directory and we are using this directory 
+// * to use and do things with the path of the files / modules  that we use  
 
-// // Create path object
-// console.log(path.parse(__filename).base);
 
-// // Concatenate paths
-// console.log(path.join(__dirname, 'test', 'hello.html'));
+
+console.log("\n");
+const path = require('path'); 
+// *   we dont have to install it but we have to require it 
+
+// Base file name
+console.log(path.basename(__filename) +'\n');
+
+
+// Directory name
+console.log(path.dirname(__filename) +'\n ');
+
+
+// File extension
+console.log(path.extname(__filename) +'\n ');
+
+// Create path object
+console.log(path.parse(__filename).base +'\n ');
+
+// Concatenate paths
+console.log(path.join(__dirname, 'test', 'hello.html') +'\n' );
 
 
 
